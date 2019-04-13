@@ -1,45 +1,62 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
 body{
  padding:0;
  margin:0;
 }  
-#first-panel {
-    height: 100vh;
-    background-color: rgb(194, 246, 255);
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-rows: 510px;
-    grid-template-columns: 450px;
+
+#main{
+    font-family: Montserrat;
 }
 
-#introduction-panel{
-    width: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    text-align: center;
-    background-color: white;
-    height:100%;
-    width:100%;
-    border-radius: 30px;
-    grid-template-columns: 100%;
-    grid-template-rows: 100%;
-    display: grid;
-    justify-content: center;
-    
-}
-#introduction-panel div {
-    text-align: center;
-    
+#top{
+    height: auto;
+    width: auto;
 }
 
-#selfie{
-    height: 45%;
-    width: 45%;
+#banner {
+    height: 310px;
+    width: 100%;
+    min-height: 220px;
+    background-color:#BFF4FF;
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    font-size: 48px;
+}
+#banner span {
+    margin-right: 326px;
+}
+
+#profile-picture{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 90px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-    padding-top:20px;
-    padding-bottom:20px;
 }
 
-#second-panel{
+#below-banner{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+#below-banner .left{
+
+}
+
+#below-banner .right{
+    font-size: 24px;
+    margin-top:5px;
+}
+
+#projects{
     height: 100vh;
-    background-color: rgb(0, 149, 175);
+    width:100vw;
+    background-color: azure;
 }
