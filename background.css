@@ -1,0 +1,68 @@
+		#lineh1{
+			position: absolute;
+			left: 0;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+		}
+		#lineh2{
+			position: absolute;
+			left: 0;
+			top: 40px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+		}
+		#lineh3{
+			position: absolute;
+			left: 0;
+			top: 70px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+		}
+		#lineh4{
+			position: absolute;
+			right: 0;
+			top: 100px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+		}
+		#lineh5{
+			position: absolute;
+			left: 0;
+			top: 130px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+			animation: lineH 16s 4s infinite linear;
+		}
+		#lineh6{
+			position: absolute;
+			right: 0;
+			top: 160px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+			animation: lineH 10s 1s infinite linear;
+		}
+		#lineh7{
+			position: absolute;
+			right: 0;
+			top: 190px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+			animation: lineH 12s 0s infinite linear;
+		}
+		#lineh8{
+			position: absolute;
+			left: 0;
+			top: 220px;
+			height: 10px;
+			background: rgba(255, 255, 255, 0.185);
+			animation: lineH 13s 1.5s infinite linear;
+		}
+
+		@keyframes lineH{
+			0%{
+				width: 0%;
+			}
+			100%{
+        width: 100%;
+      }
+    }
