@@ -109,7 +109,6 @@ body {
 .container {
   width: 60vw;
   height: 33vw;
-  min-width: 316px;
   margin-top: 70px;
   margin-bottom: 50px;
   /* Set the depth of the elements */
