@@ -2,22 +2,24 @@
 body {
   padding: 0;
   margin: 0;
-  color: rgb(43, 43, 43);
+  color: rgb(70, 60, 60);
   font-family: Montserrat;
+  background-image: url("assets/memphis-mini.png");
+  background-attachment: fixed;
 }
-html{
-  font-size:1vw;
+
+html {
+  font-size: 1vw;
+  overflow-x: hidden
 }
+
 #first {
   height: 100vh;
   width: 100vw;
   align-content: center;
-  background-image: url('assets/memphis-mini-dark.jpeg');
-  background-attachment: fixed;
   display: grid;
   grid-template-columns: 35vw 62vw;
   grid-template-rows: 60vh;
-  background-color: rgb(255, 255, 255);
 }
 
 #one {
@@ -28,77 +30,7 @@ html{
 }
 
 #two {
-  background-color: rgb(240, 240, 240);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  font-size: 40px;
-  border-radius: 40px;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-}
-
-#sub-name {
-  display: flex;
-  justify-content: center;
-  font-size: 24px;
-  margin-top: 3%;
-}
-
-#icons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#icons img {
-  box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
-  border-radius: 50%;
-}
-
-#linkedIn {
-  max-width: 15%;
-  margin-left: 10%;
-  margin-right: 10%;
-  color: black;
-}
-
-#resume {
-  max-width: 13.5%;
-}
-
-#github {
-  max-width: 15%;
-}
-
-#profilePic {
-  border-radius: 50%;
-  /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19); */
-  max-width: 80%;
-}
-
-/* test */
-
-#first2 {
-  height: 100vh;
-  width: 100vw;
-  align-content: center;
-  background-image: url("assets/memphis-mini.png");
-  background-attachment: fixed;
-  display: grid;
-  grid-template-columns: 35vw 62vw;
-  grid-template-rows: 60vh;
-  background-color: rgb(255, 255, 255);
-}
-
-#one2 {
-  grid-row: 1 / 3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#two2 {
+  min-height: 370px;
   background-color: rgb(255, 216, 164);
   display: flex;
   flex-direction: column;
@@ -108,40 +40,143 @@ html{
   box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
 }
 
-#name2{
+#heading {
+  background-color: rgb(255, 231, 199);
+  border-radius: 20px;
+  padding: 2%;
+}
+
+#name {
   font-size: 3em;
 }
-#sub-name2 {
+
+#sub-name {
   display: flex;
   justify-content: center;
   font-size: 1.5em;
   margin-top: 3%;
 }
 
-#icons2 {
+#icons {
   display: flex;
   justify-content: center;
 }
 
-#icons2 img {
+#icons img {
   box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
   border-radius: 50%;
   max-width: 60%;
- 
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+
+#icons img:hover {
+  top: -10px;
 }
 
 a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width:25%;
-  margin:0;
-  padding:0;
+  width: 25%;
+  margin: 0;
+  padding: 0;
 }
 
-#profilePic2 {
+#profilePic {
   border-radius: 50%;
   box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
   max-width: 80%;
-  max-height:100%;
+  /* max-height: 100%; */
+}
+
+#about-me {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#about-me>div {
+  max-width: 30%;
+  background-color: rgb(255, 216, 164);
+  border-radius: 7%;
+  box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#about-me div h1 {
+  text-align: center;
+}
+
+#about-me div div {
+  padding: 2%;
+  text-align: justify;
+  background-color: rgb(255, 231, 199);
+  border-radius: 10px;
+}
+
+#qualities {
+  background-color: rgb(255, 231, 199);
+  border-radius: 10px;
+  padding: 2%;
+  list-style-position: inside;
+}
+
+#qualities li {
+  margin-bottom: 5px;
+}
+
+/* ANIMATIONS */
+
+body {
+  animation: fadein 2.7s;
+  -moz-animation: fadein 2.7s;
+  /* Firefox */
+  -webkit-animation: fadein 2.7s;
+  /* Safari and Chrome */
+  -o-animation: fadein 2.7s;
+  /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }

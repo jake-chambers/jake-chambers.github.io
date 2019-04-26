@@ -5,51 +5,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Jacob Chambers</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="icon" href="assets/favicon.png" type="image/gif" sizes="16x16">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 </head>
-
 <body>
     <div id="first">
         <div id="one">
             <img id="profilePic" src="assets/linkedinPic.jpg">
         </div>
         <div id="two">
-            <div>
+            <div id = "heading">
                 <div id="name">Jacob Chambers</div>
                 <div id="sub-name">Software Engineer</div>
             </div>
-
             <div id="icons">
-                <img id="github" src="assets/github.png">
-                <img id="linkedIn" src="assets/linkedin.png">
-                <img id="resume" src="assets/resume.png">
+                <a href="https://github.com/jake-chambers" target="_blank"><img id="github" src="assets/github.png"></a>
+                <a href= "https://www.linkedin.com/in/jacob-chambers-3bb06112b/" target="_blank"><img id="linkedIn" src="assets/linkedin.png"></a>
+                <a href="assets/jakes-resume.pdf" target="_blank"><img id="resume" src="assets/resume.png"></a>
             </div>
 
         </div>
     </div>
-
-    <div id="first2">
-        <div id="one2">
-            <img id="profilePic2" src="assets/linkedinPic.jpg">
-        </div>
-        <div id="two2">
+    <div id = "about-me">
+        <div  data-aos="fade-right" data-aos-duration="2000" id = "introduction">
+            <h1>Introduction</h1>
             <div>
-                <div id="name2">Jacob Chambers</div>
-                <div id="sub-name2">Software Engineer</div>
-            </div>
-            <div id="icons2">
-                <a href="https://github.com/jake-chambers" target="_blank"><img id="github2" src="assets/github.png"></a>
-                <a href= "https://www.linkedin.com/in/jacob-chambers-3bb06112b/" target="_blank"><img id="linkedIn2" src="assets/linkedin.png"></a>
-                <a href="assets/jakes-resume.pdf" target="_blank"><img id="resume2" src="assets/resume.png"></a>
+                I am a solution driven software engineer looking to increase versatility through project involvement. I possess full stack
+                experience in designing and implementing web-applications and have work experience in the field of application security.
+                <br>
+                <br>
+                Aside from my technical abilities, I am a very sociable person and love to stay active. I am a strong believer in putting everything you've
+                got into everything you do. I enjoy picking up new skills, and polishing existing skills to become the best all-around person I can be.
             </div>
 
+            <ul id = "qualities">
+                <li>I love to problem solve.</li>
+                <li>I have a very high attention to detail.</li>
+                <li>I strive to create something I'm proud of.</li>
+                <li>I try to enjoy everything I do.</li>
+            </ul>
+
         </div>
+        <div data-aos="fade-left" data-aos-duration="2000" id = "experience">
+            <h1>Experience</h1>
+            <div>
+                I am a solution driven software engineer looking to increase versatility through project involvement. I possess full
+                stack
+                experience in designing and implementing web-applications and have work experience in the field of application security.
+                <br>
+                <br>
+                Aside from my technical abilities, I am a very sociable person and love to stay active. I am a strong believer in
+                putting everything you've
+                got into everything you do. I enjoy picking up new skills, and polishing existing skills to become the best all-around
+                person I can be.
+            </div>
+                <ul id="qualities">
+                    <li>I love to problem solve.</li>
+                    <li>I have a very high attention to detail.</li>
+                    <li>I strive to create something I'm proud of.</li>
+                    <li>I try to enjoy everything I do.</li>
+                </ul>
+
+        </div>
+
     </div>
+
 </body>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script>
+    AOS.init();
+</script>
 <script src="script.js"></script>
 
 </html>
