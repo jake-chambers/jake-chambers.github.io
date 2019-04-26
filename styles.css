@@ -186,4 +186,28 @@ body {
   #about-me {
     flex-direction: column;
   }
+  #about-me>div {
+    max-width: 60%;
+    height: 60vw;
+  }
+  #introduction {
+    font-size: 2em;
+  }
+  #experience {
+    font-size: 2em;
+  }
+  #name {
+    font-size: 5em;
+  }
+  #sub-name {
+    font-size: 3em;
+  }
+  #two {
+    justify-content: space-around;
+    min-height: 0;
+  }
+  #first {
+    grid-template-rows: 40vh;
+  }
+
 }
