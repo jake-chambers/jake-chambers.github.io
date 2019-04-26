@@ -100,7 +100,8 @@ a {
 }
 
 #about-me>div {
-  max-width: 30%;
+  max-width: 35%;
+  height: 40vw;
   background-color: rgb(255, 216, 164);
   border-radius: 7%;
   box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
@@ -127,7 +128,7 @@ a {
 }
 
 #qualities li {
-  margin-bottom: 5px;
+  margin-bottom: 2%;
 }
 
 /* ANIMATIONS */
@@ -178,5 +179,11 @@ body {
   }
   to {
     opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #about-me {
+    flex-direction: column;
   }
 }
