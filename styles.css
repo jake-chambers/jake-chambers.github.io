@@ -239,12 +239,12 @@ body {
   #about-me {
     flex-direction: column;
   }
-  #about-me>div {
-    max-width: 55%;
-    height: auto;
+  #introduction {
+    max-width: 75%;
+    height: 80vw;
   }
   #introduction {
-    font-size: 2em;
+    font-size: 2.5em;
   }
   #contact {
     font-size: 2em;
@@ -275,6 +275,12 @@ body {
   #profilePic {
     max-width: 60%;
     margin-bottom: 10%;
+  }
+  #contact {
+    max-width: 65%;
+  }
+  #contact img {
+    max-width: 100%;
   }
   #contact img:hover {
     top: 0px;
