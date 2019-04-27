@@ -170,12 +170,12 @@ a {
 /* ANIMATIONS */
 
 body {
-  animation: fadein 2.7s;
-  -moz-animation: fadein 2.7s;
+  animation: fadein 2s;
+  -moz-animation: fadein 2s;
   /* Firefox */
-  -webkit-animation: fadein 2.7s;
+  -webkit-animation: fadein 2s;
   /* Safari and Chrome */
-  -o-animation: fadein 2.7s;
+  -o-animation: fadein 2s;
   /* Opera */
 }
 
@@ -246,7 +246,7 @@ body {
   #introduction {
     font-size: 2em;
   }
-  #experience {
+  #contact {
     font-size: 2em;
   }
   #name {
