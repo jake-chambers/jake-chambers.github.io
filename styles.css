@@ -2,6 +2,7 @@
 body {
   padding: 0;
   margin: 0;
+  width: 100vw;
   color: rgb(70, 60, 60);
   font-family: Montserrat;
   background-image: url("assets/memphis-mini.png");
@@ -12,8 +13,9 @@ body {
 }
 
 html {
+  padding: 0;
+  margin: 0;
   font-size: 1vw;
-  overflow-x: hidden
 }
 
 #first {
@@ -99,6 +101,7 @@ a {
 }
 
 #about-me {
+  overflow-x: hidden;
   display: flex;
   height: 100vh;
   width: 100vw;
@@ -169,7 +172,7 @@ a {
 
 /* ANIMATIONS */
 
-body {
+#first {
   animation: fadein 2s;
   -moz-animation: fadein 2s;
   /* Firefox */
@@ -180,40 +183,40 @@ body {
 }
 
 @keyframes fadein {
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
 @-moz-keyframes fadein {
   /* Firefox */
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
 @-webkit-keyframes fadein {
   /* Safari and Chrome */
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
 
 @-o-keyframes fadein {
   /* Opera */
-  from {
+  0% {
     opacity: 0;
   }
-  to {
+  100% {
     opacity: 1;
   }
 }
@@ -255,19 +258,23 @@ body {
   #sub-name {
     font-size: 3em;
   }
+  #one {
+    position: relative;
+    bottom: 4%;
+  }
   #two {
     justify-content: space-evenly;
     min-height: 0;
+    height: 30vh;
+    width: 80vw;
+    position: relative;
+    bottom: 4%;
   }
   #first {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  #two {
-    height: 30vh;
-    width: 80vw;
   }
   #heading {
     padding: 5%;
