@@ -100,6 +100,7 @@ a {
   max-width: 80%;
 }
 
+/* Parent */
 #about-me {
   overflow-x: hidden;
   display: flex;
@@ -110,8 +111,8 @@ a {
 }
 
 #introduction {
-  max-width: 35%;
-  height: 32vw;
+  max-width: 40%;
+  height: 37vw;
   background-color: var(--theme-colour);
   border-radius: 7%;
   box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
@@ -128,6 +129,7 @@ a {
   text-align: justify;
   background-color: var(--secondary-theme-colour);
   border-radius: 10px;
+  font-size: 1.25em;
 }
 
 #about-me img {
