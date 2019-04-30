@@ -50,7 +50,7 @@ html {
 #heading {
   background-color: var(--secondary-theme-colour);
   border-radius: 20px;
-  padding: 3%;
+  padding: 4%;
 }
 
 #name {
@@ -101,6 +101,7 @@ a {
 }
 
 /* Parent */
+
 #about-me {
   overflow-x: hidden;
   display: flex;
@@ -111,17 +112,25 @@ a {
 }
 
 #introduction {
-  max-width: 40%;
-  height: 37vw;
+  max-width: 32%;
+  height: auto;
   background-color: var(--theme-colour);
   border-radius: 7%;
   box-shadow: 0 4px 8px 0 rgba(102, 102, 102, 0.2), 0 6px 20px 0 rgba(102, 102, 102, 0.2);
   padding-left: 2%;
   padding-right: 2%;
+
 }
 
 #introduction h1 {
   text-align: center;
+  font-size: 2.8em;
+  margin-bottom: 2%;
+  margin-top: 3%;
+}
+
+h1 {
+  font-weight: 100;
 }
 
 #introduction div {
@@ -129,7 +138,8 @@ a {
   text-align: justify;
   background-color: var(--secondary-theme-colour);
   border-radius: 10px;
-  font-size: 1.25em;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 #about-me img {
@@ -141,6 +151,7 @@ a {
   border-radius: 10px;
   padding: 2%;
   list-style-position: inside;
+  margin-bottom: 4%;
 }
 
 #qualities li {
@@ -243,16 +254,21 @@ a {
 @media only screen and (max-width: 600px) {
   #about-me {
     flex-direction: column;
+    height: auto;
   }
   #introduction {
-    max-width: 75%;
-    height: 80vw;
+    max-width: 70%;
+    height: auto;
+    font-size: 2.2em;
+    margin-bottom: 12%;
+    border-radius: 5%;
   }
-  #introduction {
-    font-size: 2.5em;
+  #introduction h1 {
+    font-size: 2.2em;
   }
   #contact {
     font-size: 2em;
+    margin-bottom: 12%;
   }
   #name {
     font-size: 5em;
@@ -262,7 +278,7 @@ a {
   }
   #one {
     position: relative;
-    bottom: 4%;
+    bottom: 2.5%;
   }
   #two {
     justify-content: space-evenly;
@@ -271,18 +287,20 @@ a {
     width: 80vw;
     position: relative;
     bottom: 4%;
+    padding: 3%;
   }
   #first {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
   }
   #heading {
     padding: 5%;
   }
   #profilePic {
-    max-width: 60%;
+    max-width: 50%;
     margin-bottom: 10%;
   }
   #contact {
@@ -293,6 +311,9 @@ a {
   }
   #contact img:hover {
     top: 0px;
+  }
+  #icons {
+    margin-top: 5%;
   }
   #icons img:hover {
     top: 0px;
