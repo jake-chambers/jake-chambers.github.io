@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+/* blue: rgb(8, 71, 102); */
+
+/* yella: rgb(121, 113, 93); */
+
+/* purp: rgb(122, 13, 108); */
+
+/* green: rgb(51, 115, 101); */
+
+body, html {
+    height: 100vh;
+    margin: 0;
+    font-size: 1vw;
+    font-family: Raleway;
+    --border-colour: rgb(8, 71, 102);
+}
+
+#first {
+    height: 100vh;
+    background-image: url("assets/code.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 2%;
+}
+
+#first img {
+    max-width: 20%;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+}
+
+#introduction {
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    height: 10vw;
+    width: 70%;
+    padding: 1%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    right: 3%;
+    z-index: 0;
+    border-radius: 10px;
+    color: rgb(236, 236, 236);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0);
+}
+
+#introduction div {
+    font-size: 5em;
+    font-weight: 800;
+}
+
+#introduction span {
+    font-size: 2.3em;
+}
+
+#second {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+    display: grid;
+    grid-template-columns: 1fr 0.70fr;
+    border: solid;
+    border-color: var(--border-colour);
+    border-width: 0.5em;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+#second img {
+    max-width: 70%;
+    border-radius: 50%;
+    margin-right: 60px;
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0);
+}
+
+#column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 211, 211);
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+#card {
+    max-width: 69%;
+    border-radius: 5%;
+    border: solid;
+    border-color: var(--border-colour);
+    padding: 2%;
+    line-height: 1.5em;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0);
+}
+
+#card div {
+    text-align: justify;
+}
+
+#card span {
+    /* background-color: rgb(39, 39, 39); */
+    /* background-color: var(--border-colour); */
+    display: inline-block;
+    color: rgb(236, 236, 236);
+    font-size: 2em;
+    padding: 4%;
+}
+
+#card ul {
+    padding-left: 5%;
+}
+
+#column-2 {
+    /* background-color: rgb(38, 44, 52); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#third {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
