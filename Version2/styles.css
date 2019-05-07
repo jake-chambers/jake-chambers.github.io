@@ -91,8 +91,7 @@ body, html {
 #card {
     max-width: 69%;
     border-radius: 5%;
-    border: solid;
-    border-color: var(--border-colour);
+
     padding: 2%;
     line-height: 1.5em;
     text-align: center;
@@ -220,9 +219,9 @@ a {
 
     #card{
         height:100%;
-        font-size:1.69em;
+        font-size:2em;
     }
     #column-1{
-        height: 40%;
+        height: 50%;
     }
 }
