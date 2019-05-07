@@ -29,13 +29,6 @@ body, html {
     padding-left: 2%;
 }
 
-#first img {
-    max-width: 20%;
-    border-radius: 50%;
-    z-index: 1;
-    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-}
-
 #introduction {
     background-color: rgb(29, 29, 29);
     position: relative;
@@ -195,3 +188,41 @@ a {
 /* purp: rgb(122, 13, 108); */
 
 /* green: rgb(51, 115, 101); */
+
+@media only screen and (max-width: 600px) {
+    #first {
+        padding-left: 0;
+    }
+    #introduction {
+        height: 35vw;
+        width: 100%;
+        bottom: 5%;
+        right: 0;
+        border-radius: 0;
+        padding-left: 0;
+        align-items: center;
+    }
+    #introduction div {
+        font-size: 9.25em;
+    }
+    #introduction span {
+        font-size: 4.24em;
+    }
+    #second {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #second img {
+        margin-right: 0;
+        max-width: 50%;
+    }
+
+    #card{
+        height:100%;
+        font-size:1.69em;
+    }
+    #column-1{
+        height: 40%;
+    }
+}
