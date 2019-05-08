@@ -211,7 +211,7 @@ a {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 550px) {
     #first {
         padding-left: 0;
     }
