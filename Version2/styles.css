@@ -91,7 +91,6 @@ body, html {
 #card {
     max-width: 69%;
     border-radius: 5%;
-
     padding: 2%;
     line-height: 1.5em;
     text-align: center;
@@ -214,14 +213,24 @@ a {
     }
     #second img {
         margin-right: 0;
-        max-width: 50%;
+        max-width: 40%;
+    }
+    #card {
+        height: 100%;
+        font-size: 2em;
+    }
+    #column-1 {
+        height: 50%;
     }
 
-    #card{
-        height:100%;
-        font-size:2em;
+    a {
+        width: 55%;
     }
-    #column-1{
-        height: 50%;
+    #third div img {
+        box-shadow: 0 2px 5px 0px rgb(54, 54, 54);
+    }
+    #third div div {
+        text-align:center;
+        font-size: 2.6em;
     }
 }
