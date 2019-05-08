@@ -17,8 +17,22 @@ body, html {
     --border-colour: rgba(8, 71, 102, 0.591);
 }
 
+body{
+    /* display: none; */
+}
+.hidden{
+    display: none;
+}
+#content{
+    display: none;
+    text-align: center;
+}
+#welcome{
+    font-size: 5em;
+}
 #first {
     height: 100vh;
+    background-image: url("assets/code.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,7 +74,7 @@ body, html {
     background-color: rgb(29, 29, 29);
     display: grid;
     grid-template-columns: 1fr 0.70fr;
-    box-shadow: inset 0px 0px 40px 10px var(--border-colour);
+    box-shadow: inset 0px 0px 30px 5px var(--border-colour);
 }
 
 #second img {
@@ -165,7 +179,7 @@ a {
     background-color: rgb(51, 115, 101);
 }
 
-#first {
+#first1 {
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     -webkit-animation: fadein 2s;
@@ -237,7 +251,7 @@ a {
         justify-content: space-evenly;
         padding-top: 20%;
         padding-bottom: 20%;
-        box-shadow: inset 0px 0px 30px 5px var(--border-colour);
+        box-shadow: inset 0px 0px 20px 2px var(--border-colour);
     }
     #second img {
         margin-right: 0;
