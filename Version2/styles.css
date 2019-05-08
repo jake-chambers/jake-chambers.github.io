@@ -68,9 +68,6 @@ body, html {
     border-radius: 50%;
     margin-right: 60px;
     box-shadow: 0 3px 15px 0px rgba(0, 0, 0);
-    border: solid;
-    border-color: rgb(24, 24, 24);
-    border-width: 7px;
 }
 
 #column-1 {
@@ -234,20 +231,23 @@ a {
         font-size: 4.24em;
     }
     #second {
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        padding-top: 20%;
+        padding-bottom: 20%;
     }
     #second img {
         margin-right: 0;
         max-width: 40%;
     }
     #card {
-        height: 100%;
         font-size: 2em;
+        margin-bottom: 13%;
     }
     #column-1 {
-        height: 50%;
+        height: 55%;
     }
     a {
         width: 55%;
