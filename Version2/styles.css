@@ -71,7 +71,7 @@ body, html {
 }
 
 #second {
-    height: 100vh;
+    height: auto;
     width: 100vw;
     background-color: rgb(29, 29, 29);
     display: grid;
@@ -103,6 +103,8 @@ body, html {
     text-align: center;
     background-color: rgb(24, 24, 24);
     box-shadow: 0 3px 15px 0px rgba(0, 0, 0);
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 #card div {
@@ -117,6 +119,7 @@ body, html {
 
 #card ul {
     padding-left: 5%;
+    margin-top: 0;
 }
 
 #column-2 {
@@ -251,8 +254,8 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 15%;
+        padding-bottom: 15%;
         box-shadow: inset 0px 0px 20px 2px rgb(24, 24, 24);
     }
     #second img {
@@ -260,8 +263,10 @@ a {
         max-width: 40%;
     }
     #card {
-        font-size: 2em;
+        font-size: 2.75em;
         margin-bottom: 13%;
+        margin-top: 0;
+        max-width: 85%;
     }
     #column-1 {
         height: 55%;
@@ -278,5 +283,8 @@ a {
     }
     #third div img:hover {
         top: 0px;
+    }
+    #welcome {
+        font-size: 10em;
     }
 }
