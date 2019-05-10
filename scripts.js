@@ -1,11 +1,7 @@
-$('#first').imagesLoaded({ background: true }, function () {
+$(document).ready(function () {
     $("#welcome").fadeOut(1500);
-
-    setTimeout(function () { 
+    setTimeout(function () {
         $("#content").fadeIn(1300);
         $("body").removeClass("start");
-     }, 1430);
-
-
+    }, 1430);
 });
-
