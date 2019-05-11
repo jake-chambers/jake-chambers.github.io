@@ -17,15 +17,13 @@ body, html {
     --border-colour: rgba(8, 71, 102, 0.591);
 }
 
-.start {
+body {
     display: grid;
-    align-content: center;
-    justify-content: center;
+    place-items: center center;
 }
 
 #content {
     display: none;
-    position: relative;
 }
 
 #welcome {
