@@ -32,6 +32,7 @@ body {
 
 #first {
     height: 100vh;
+    width: 100vw;
     background-image: url("assets/code.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +40,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 2%;
 }
 
 #introduction {
@@ -162,7 +162,7 @@ body {
     top: -6px;
 }
 
-a {
+#third div a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,6 +181,26 @@ a {
 
 #connect-3 {
     background-color: rgb(51, 115, 101);
+}
+
+#footer {
+    height: auto;
+    width: 100vw;
+    display: grid;
+    place-items: center center;
+    color: rgba(236, 236, 236, 0.335);
+}
+
+#footer div {
+    margin-top: 0.75%;
+    margin-bottom: 0.75%;
+}
+
+#footer a {
+    color: rgba(236, 236, 236, 0.335);
+    text-decoration: none;
+    font-size: 0.8em;
+
 }
 
 #first1 {
