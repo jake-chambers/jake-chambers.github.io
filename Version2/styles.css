@@ -43,7 +43,7 @@ body {
 }
 
 #introduction {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(24, 24, 24);
     position: relative;
     height: 10vw;
     width: 70%;
@@ -78,7 +78,7 @@ body {
 }
 
 #second img {
-    max-width: 70%;
+    max-width: 67%;
     border-radius: 50%;
     margin-right: 60px;
     box-shadow: 0 2px 15px 0px rgba(0, 0, 0);
@@ -95,24 +95,27 @@ body {
 
 #card {
     max-width: 69%;
-    border-radius: 5%;
-    padding: 2%;
+    border-radius: 3%;
     line-height: 1.5em;
     text-align: center;
     background-color: rgb(24, 24, 24);
     box-shadow: 0 3px 15px 0px rgba(0, 0, 0);
     margin-top: 10%;
     margin-bottom: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 #card div {
     text-align: justify;
+    padding-left: 2.4%;
+    padding-right: 2.4%;
 }
 
 #card span {
     display: inline-block;
     font-size: 2em;
-    padding: 4%;
+    margin-bottom: 3.5%;
 }
 
 #card ul {
@@ -199,8 +202,11 @@ body {
 #footer a {
     color: rgba(236, 236, 236, 0.335);
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 1em;
+}
 
+#footer a:hover {
+    color: rgb(236, 236, 236);
 }
 
 #first1 {
@@ -279,13 +285,20 @@ body {
     }
     #second img {
         margin-right: 0;
-        max-width: 40%;
+        max-width: 52%;
     }
     #card {
-        font-size: 2.75em;
+        font-size: 2.4em;
         margin-bottom: 13%;
+        border-radius: 3%;
         margin-top: 0;
         max-width: 85%;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+    #card div {
+        padding-left: 4.5%;
+        padding-right: 4.5%;
     }
     #column-1 {
         height: 55%;
