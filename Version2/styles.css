@@ -148,14 +148,14 @@ body {
 }
 
 #third div div {
-    margin-bottom: 30%;
+    margin-bottom: 20%;
     font-size: 1.5em;
     text-align: center;
 }
 
 #third div img {
     border-radius: 50%;
-    max-width: 100%;
+    max-width: 75%;
     box-shadow: 0 3px 15px 0px rgb(54, 54, 54);
     position: relative;
     top: 0;
@@ -230,8 +230,9 @@ body {
     justify-content: center;
     align-items: center
 }
-#separator{
-    background-color: rgb(29,29,29);
+
+#separator {
+    background-color: rgb(29, 29, 29);
     height: 70%;
     width: 0.1em;
     position: relative;
@@ -262,7 +263,7 @@ body {
 
 .card-title {
     margin-bottom: 1%;
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .card-content {
@@ -273,11 +274,14 @@ body {
 .card-description {
     text-align: justify;
     line-height: 1.5em;
-    width: 40%;
+    font-size: 1.1em;
+    width: 50%;
+    margin-right: 3%;
+    align-self: center;
 }
 
 .card-content img {
-    height: 50%;
+    height: 100%;
     width: 50%;
 }
 
