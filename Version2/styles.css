@@ -218,31 +218,67 @@ body {
 }
 
 #fourth {
-    height: auto;
+    height: 65vh;
     display: grid;
-    grid-template-columns: 0.2fr 0.8fr;
-}
-
-#fourth img {
-    height: 100px;
-    width: 100px;
-}
-
-.card-title {
-    background-color: rgb(37, 129, 98);
-    width: 60%;
+    grid-template-columns: 0.3fr 0.7fr;
 }
 
 .header {
     font-size: 3em;
     background-color: rgb(24, 24, 24);
-    display: grid;
-    place-items: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+#separator{
+    background-color: rgb(29,29,29);
+    height: 70%;
+    width: 0.1em;
+    position: relative;
+    left: 23%;
 }
 
-.card{
+#projects {
+    background-color: rgb(24, 24, 24);
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    overflow-y: auto;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+
+.card {
+    background-color: rgb(29, 29, 29);
+    border-radius: 5px;
+    width: 70%;
+    /* min-height: 63%; */
+    height: auto;
+    box-shadow: 0 3px 15px 0px rgba(0, 0, 0);
+    justify-self: center;
+    align-self: center;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+.card-title {
+    margin-bottom: 1%;
+    font-size: 1.5em;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-description {
+    text-align: justify;
+    line-height: 1.5em;
+    width: 40%;
+}
+
+.card-content img {
+    height: 50%;
+    width: 50%;
 }
 
 @keyframes fadein {
