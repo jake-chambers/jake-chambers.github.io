@@ -217,6 +217,34 @@ body {
     -o-animation: fadein 2s;
 }
 
+#fourth {
+    height: auto;
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+}
+
+#fourth img {
+    height: 100px;
+    width: 100px;
+}
+
+.card-title {
+    background-color: rgb(37, 129, 98);
+    width: 60%;
+}
+
+.header {
+    font-size: 3em;
+    background-color: rgb(24, 24, 24);
+    display: grid;
+    place-items: center center;
+}
+
+.card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @keyframes fadein {
     0% {
         opacity: 0;
