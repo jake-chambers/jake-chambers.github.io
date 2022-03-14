@@ -31,7 +31,7 @@ Just my personal website :), always a work in progress.
 <!-- CONTACT -->
 ## Contact
 
-Jake Chambers - [LinkedIn](https://www.linkedin.com/in/-jacob-chambers/) - imjakechambers@gmail.com
+Jake Chambers - [LinkedIn](https://www.linkedin.com/in/jake-chambers-/) - imjakechambers@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -46,5 +46,5 @@ Jake Chambers - [LinkedIn](https://www.linkedin.com/in/-jacob-chambers/) - imjak
 [license-shield]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square
 [license-url]: https://choosealicense.com/licenses/mit
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/-jacob-chambers/
+[linkedin-url]: https://www.linkedin.com/in/jake-chambers-/
 [product-screenshot]: images/portfolio.gif
