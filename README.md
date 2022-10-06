@@ -31,7 +31,7 @@ Just my personal website :), always a work in progress.
 <!-- CONTACT -->
 ## Contact
 
-Jake Chambers - [LinkedIn](https://www.linkedin.com/in/jake-chambers-/) - imjakechambers@gmail.com
+Jake Chambers - [LinkedIn](https://www.linkedin.com/in/jake-chambers-/) - jjakechambers@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
